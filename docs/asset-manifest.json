@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.b64be68c.css",
-    "main.js": "/static/js/main.6cac5aee.js",
-    "index.html": "/index.html",
-    "main.b64be68c.css.map": "/static/css/main.b64be68c.css.map",
-    "main.6cac5aee.js.map": "/static/js/main.6cac5aee.js.map"
+    "main.css": "/fonyou-test/static/css/main.b64be68c.css",
+    "main.js": "/fonyou-test/static/js/main.fbb8a214.js",
+    "index.html": "/fonyou-test/index.html",
+    "main.b64be68c.css.map": "/fonyou-test/static/css/main.b64be68c.css.map",
+    "main.fbb8a214.js.map": "/fonyou-test/static/js/main.fbb8a214.js.map"
   },
   "entrypoints": [
     "static/css/main.b64be68c.css",
-    "static/js/main.6cac5aee.js"
+    "static/js/main.fbb8a214.js"
   ]
 }

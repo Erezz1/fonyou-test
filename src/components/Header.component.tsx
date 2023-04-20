@@ -19,7 +19,7 @@ const Searcher = () => {
   return (
     <header
       className="header__container"
-      style={{ backgroundImage: "url('/bg-rickandmorty.webp')" }}
+      style={{ backgroundImage: "url('/fonyou-test/bg-rickandmorty.webp')" }}
     >
       <form
         className="header__form"

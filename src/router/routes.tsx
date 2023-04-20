@@ -1,22 +1,17 @@
-import { createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter, Navigate } from 'react-router-dom';
 import { HomePage, CharacterPage } from '../pages';
 
 export const router = createBrowserRouter([
   {
     path: '/*',
-    element: (
-      <div>
-        <p>404</p>
-        <p>Page not found</p>
-      </div>
-    )
+    element: <Navigate to="/fonyou-test/" />
   },
   {
-    path: '/',
+    path: '/fonyou-test/',
     element: <HomePage />
   },
   {
-    path: '/character/:characterId',
+    path: '/fonyou-test/character/:characterId',
     element: <CharacterPage />
   },
 ]);

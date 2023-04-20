@@ -29,7 +29,7 @@ const CharacterPage = () => {
 
   return (
     <div className="character__container">
-      <button onClick={() => navigate('/')}>{'<'}</button>
+      <button onClick={() => navigate('/fonyou-test')}>{'<'}</button>
       <div className="character__details">
         <img
           src={character.image}

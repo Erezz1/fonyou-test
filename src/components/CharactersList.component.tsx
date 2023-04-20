@@ -77,7 +77,7 @@ interface CharacterItemProps {
 const CharacterItem: FC<CharacterItemProps> = ({ character }) => {
   const navigate = useNavigate();
 
-  const handleNavigate = () => navigate('/character/' + character.id);
+  const handleNavigate = () => navigate('/fonyou-test/character/' + character.id);
 
   return (
     <li
