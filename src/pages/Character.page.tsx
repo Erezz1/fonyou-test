@@ -28,7 +28,7 @@ const CharacterPage = () => {
   }
 
   return (
-    <div className="character__container">
+    <div className="character__container animate__animated animate__fadeInRight">
       <button onClick={() => navigate('/fonyou-test')}>{'<'}</button>
       <div className="character__details">
         <img

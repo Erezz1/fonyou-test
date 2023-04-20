@@ -81,7 +81,7 @@ const CharacterItem: FC<CharacterItemProps> = ({ character }) => {
 
   return (
     <li
-      className="character__item"
+      className="character__item animate__animated animate__fadeInUp"
     >
       <article>
         <div className="character__item-image">
